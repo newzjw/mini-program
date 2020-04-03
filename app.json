@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/demo18/demo18",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/img/img",
+    "pages/mine/mine", 
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "朱江威的应用",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "yellow"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/_home.png",
+        "selectedIconPath": "icon/home.png"
+      },
+      {
+        "pagePath": "pages/img/img",
+        "text": "图片",
+        "iconPath": "icon/_img.png",
+        "selectedIconPath": "icon/img.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/_my.png",
+        "selectedIconPath": "icon/my.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "icon/_search.png",
+        "selectedIconPath": "icon/search.png"
+      },
+      {
+        "pagePath": "pages/demo18/demo18",
+        "text": "demo18",
+        "iconPath": "icon/_search.png",
+        "selectedIconPath": "icon/search.png"
+      }
+    ],
+    "color":"#0094ff",
+    "selectedColor":"#ff9400",
+    "backgroundColor":"#fff"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
