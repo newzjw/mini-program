@@ -1,34 +1,11 @@
-// pages/demo18/demo18.js
+// pages/demo19/demo19.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    tabs: [
-      {
-        id: 0,
-        name: "首页",
-        isActive: true
-      },
-      {
-        id: 1,
-        name: "原创",
-        isActive: false
-      }
-      ,
-      {
-        id: 2,
-        name: "分类",
-        isActive: false
-      }
-      ,
-      {
-        id: 3,
-        name: "关于",
-        isActive: false
-      }
-    ]
+
   },
 
   /**
